@@ -55,6 +55,8 @@ public class AdminController {
             list = studentService.findByPaging(page);
         }
 
+        System.out.println("helloworld");
+
         model.addAttribute("studentList", list);
         model.addAttribute("pagingVO", pagingVO);
 
